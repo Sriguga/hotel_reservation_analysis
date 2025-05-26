@@ -28,7 +28,7 @@ CREATE TABLE hotel(
     booking_status VARCHAR(30)
 );
 
-LOAD DATA LOCAL INFILE "C:/Users/gugas/OneDrive/Documents/Hotel_reservation_project/Hotel Reservations.csv"
+LOAD DATA LOCAL INFILE "pathfile.csv"
 INTO TABLE hotel_reservation_project.hotel
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
